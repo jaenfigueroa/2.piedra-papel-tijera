@@ -1,0 +1,599 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+body {
+  background-color: white;
+  zoom: 85%;
+}
+
+#xxxx {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 75px;
+  font-family: 'Rampart One', cursive;
+  color: black;
+  text-align: center;
+  padding: 30px 0;
+
+  font-weight: lighter;
+}
+
+#puntajes {
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 20px;
+  border: 10px solid black;
+  padding: 5px 10px;
+  position: absolute;
+  right: 80px;
+  top: 40px;
+  list-style: none;
+
+  background-color: black;
+  color: white;
+}
+
+.reiniciar {
+  position: absolute;
+  transform: translateX(220px) translateY(-130px);
+  background-color: rgba(0, 255, 255, 0);
+  border: 0px solid white;
+}
+
+#imagen-reiniciar {
+  background-color: rgb(255, 255, 255);
+  border-radius: 1000px;
+  font-size: 50px;
+  color: rgb(116, 116, 116);
+  border: 3px solid white;
+}
+
+#imagen-reiniciar:hover {
+  color: tomato;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  justify-content: space-evenly;
+}
+
+.tarjeta {
+  border: 10px black solid;
+  width: 700px;
+  height: 600px;
+  border-radius: 30px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ============================================================================================= */
+#ventana0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ventana0 p:nth-child(2) {
+  max-width: 500px;
+}
+
+/*================================================================================================== */
+#ventana1 {
+  width: 700px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#ventana1 h2 {
+  font-size: 50px;
+  padding: 0px;
+}
+
+.lista-armas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5px 30px 10px 30px;
+  align-items: center;
+  list-style: none;
+}
+
+.armas-posibles {
+  display: block;
+  list-style: none;
+  border: 10px solid black;
+  padding: 10px 0;
+  font-size: 50px;
+  width: 280px;
+  border-radius: 30px;
+
+  background-color: rgb(238, 238, 238);
+}
+
+.armas-posibles:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.armas-posibles:focus {
+  background-color: black;
+  color: white;
+}
+
+#boton-listo {
+  border: 10px solid rgb(91, 91, 91);
+  background-color: rgb(91, 91, 91);
+  color: white;
+  border-radius: 20px;
+  font-size: 30px;
+  padding: 5px 100px;
+}
+
+#boton-listo:hover {
+  border: 10px solid rgb(91, 91, 91);
+  background-color: rgb(91, 91, 91);
+  color: white;
+  padding: 5px 150px;
+  transition: 0.5s;
+}
+
+/* ================================================================================================================================= */
+#aviso0 {
+  width: 200px;
+  height: 200px;
+}
+
+#primer-texto {
+  font-size: 80px;
+  padding-bottom: 0px;
+}
+
+#segundo-texto {
+  font-size: 30px;
+  padding: 10px;
+}
+
+#boton-siguiente-ronda {
+  border: 10px solid rgb(91, 91, 91);
+  border-radius: 20px;
+  font-size: 30px;
+
+  margin-top: 40px;
+  padding: 0px 10px;
+  text-transform: uppercase;
+
+  background-color: rgb(91, 91, 91);
+  color: white;
+}
+
+#boton-siguiente-ronda:hover {
+  border: 10px solid black;
+  background-color: black;
+  color: white;
+  padding: 0 60px;
+  transition: 0.5s;
+}
+
+/*  */
+.dibujos {
+  background-color: rgb(235, 241, 255);
+
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  padding: 30px;
+}
+
+.fa-solid {
+  font-size: 300px;
+  color: rgb(0, 0, 0);
+}
+
+#dibujoUno {
+  transform: rotateZ(90deg);
+}
+
+#dibujoDos {
+  transform: scaleX(-1) rotate(90deg);
+}
+
+/* ------ */
+.caras {
+  font-size: 200px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+/* AVISO------------------------------------------- */
+.aviso1 {
+  font-size: 150px;
+  padding-bottom: 20px;
+}
+
+.aviso2 {
+  font-size: 50px;
+}
+
+.boton-aceptar {
+  border: 10px solid rgb(91, 91, 91);
+  border-radius: 20px;
+  font-size: 30px;
+
+  margin-top: 40px;
+  padding: 0px 10px;
+  text-transform: uppercase;
+
+  background-color: rgb(91, 91, 91);
+  color: white;
+}
+
+.boton-aceptar:hover {
+  border: 10px solid black;
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+/* _------------------------------------------------- */
+#ventana4 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.caras-final {
+  font-size: 200px;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#cara-final {
+  font-size: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+#texto-final {
+  font-size: 60px;
+}
+
+#subtexto-final {
+  font-size: 30px;
+}
+
+#boton-volver-jugar {
+  border: 10px solid rgb(91, 91, 91);
+  border-radius: 20px;
+  font-size: 30px;
+
+  margin-top: 40px;
+  padding: 0px 10px;
+  text-transform: uppercase;
+
+  background-color: rgb(91, 91, 91);
+  color: white;
+
+  width: 420px;
+}
+
+#boton-volver-jugar:hover {
+  border: 10px solid black;
+  background-color: black;
+  color: white;
+  padding: 0 0px;
+  transition: 0.5s;
+}
+
+/* BTOOTNO EMPEZAR A JUGAR */
+.aviso0 {
+  font-size: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+#ventana0 {
+  font-size: 40px;
+}
+
+#boton-jugar {
+  background-color: rgb(91, 91, 91);
+  color: white;
+
+  border: 10px solid rgb(91, 91, 91);
+  border-radius: 20px;
+  font-size: 60px;
+  padding: 0px 30px;
+
+  margin-top: 50px;
+}
+
+#boton-jugar:hover {
+  background-color: black;
+  border: 10px solid black;
+  padding: 0px 60px;
+  transition: 0.5s;
+}
+
+/* ------------------------- */
+.creditos {
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: end;
+  font-family: sans-serif;
+  margin-right: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* ------------------ */
+
+/* ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ */
+@media (max-width: 500px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #xxxx {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  html {
+    background-color: aqua;
+  }
+
+  .caras {
+    width: 150px;
+    height: 150px;
+  }
+
+  .aviso0 {
+    width: 150px;
+    height: 150px;
+    /* background-color: blue; */
+  }
+
+  #my-body {
+    background-color: brown;
+  }
+
+  .header {
+    padding-top: 10px;
+  }
+
+  .contenedor {
+    padding: 0;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 20px;
+    display: none;
+  }
+
+  #ventana0 p:first-child {
+    height: 167px;
+  }
+
+  .dibujos {
+    display: none;
+  }
+
+  .tarjeta {
+    border: none;
+    padding: 0;
+    justify-content: start;
+    height: auto;
+  }
+
+  #ventana0 p {
+    font-size: 32px;
+    padding: 0px 20px;
+  }
+
+  #ventana0 i {
+    font-size: 150px;
+    margin-bottom: 50px;
+  }
+
+  #boton-jugar {
+    font-size: 32px;
+  }
+
+  #puntajes {
+    font-size: 28px;
+    top: 20px;
+    right: 20px;
+    position: static;
+    margin-bottom: 10px;
+  }
+
+  #puntajes button {
+    display: none;
+  }
+
+  h3 {
+    display: none;
+  }
+
+  .lista-armas input {
+    font-size: 36px;
+  }
+
+  #boton-listo {
+    padding: 5px 20px;
+  }
+
+  #boton-listo:hover {
+    padding: 5px 30px;
+  }
+
+  #ventana1 {
+    height: auto;
+    width: auto;
+  }
+
+  #boton-listo {
+    margin-top: 20px;
+  }
+
+  .lista-armas {
+    gap: 0px;
+  }
+
+  .lista-armas input {
+    margin-bottom: 20px;
+  }
+
+  /* SECTION 2 */
+
+  #cara-semifinal i {
+    font-size: 150px;
+    margin-bottom: 20px;
+  }
+
+  #primer-texto {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+
+  #segundo-texto {
+    font-size: 30px;
+  }
+
+  #boton-siguiente-ronda {
+    font-size: 24px;
+    padding: 0px 5px;
+  }
+
+  #boton-siguiente-ronda:hover {
+    font-size: 24px;
+    padding: 0px 5px;
+  }
+
+  /* SECTION 3 */
+  #ventana3 i {
+    font-size: 150px;
+    margin-bottom: 15px;
+  }
+
+  #ventana3 p {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  /* SECTION 4 */
+  #ventana4 {
+    height: 460px;
+    justify-content: space-around;
+  }
+
+  .caras-final {
+    font-size: 150px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #cara-final {
+    font-size: 150px;
+  }
+
+  #texto-final {
+    font-size: 36px;
+    padding: 0px 10px;
+  }
+
+  #subtexto-final {
+    font-size: 25px;
+    padding: 0px 10px;
+  }
+
+  #boton-volver-jugar {
+    font-size: 24px;
+    width: auto;
+    margin: 0;
+  }
+
+  #boton-volver-jugar:hover {
+    font-size: 24px;
+    width: auto;
+    padding: 0px 10px;
+  }
+}
+/* ====================== */
+@media (max-width: 630px) {
+  .tarjeta {
+    width: 100vw;
+  }
+}
+/* ============================ */
+@media (max-width: 760px) {
+  .tarjeta {
+    border: 10px rgb(255, 255, 255) solid;
+  }
+}
+
+/* ================================================= */
+@media (max-width: 1450px) {
+  html {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  #dibujoUno,
+  #dibujoDos {
+    display: none;
+  }
+
+  #puntajes {
+    position: static;
+    margin-top: 30px;
+  }
+}
