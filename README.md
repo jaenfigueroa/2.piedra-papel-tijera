@@ -2,7 +2,7 @@
 
 proyecto de practica
 
-## Captura de pantalla
+## Capturas de pantalla
 
 ![App Screenshot](./imagenes/captura-pc.jpg)
 
