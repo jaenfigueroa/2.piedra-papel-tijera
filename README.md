@@ -10,4 +10,4 @@ proyecto de practica
 
 ## Pagina web
 
-[Ir a la pagina web](https://jaenfigueroa.github.io/2.piedra-papel-tijera/)
+[Ir a la pagina web](https://jaenfigueroa.github.io/Piedra-Papel-Tijera/)
