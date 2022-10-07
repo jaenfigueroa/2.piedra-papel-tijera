@@ -8,6 +8,6 @@ proyecto de practica
 
 ![App Screenshot](./imagenes/captura-telefono.jpg)
 
-## Pagina web
+## Pagina web 
 
 [Ir a la pagina web](https://jaenfigueroa.github.io/Piedra-Papel-Tijera/)
